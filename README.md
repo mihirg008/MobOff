@@ -1,6 +1,6 @@
 # MobOff
 
-> A command line tool to add your music and videos directly to several devices.
+> A command line tool to add your music and videos directly to several devices.:computer::arrow_right::iphone:
 
 ## Why?
 
@@ -11,6 +11,8 @@ Scenario : You need to travel the next day and you realise that the `diff` betwe
 Now you have to use an online mp3 converter to convert all the songs one by one, and then connect your device via USB to paste all the music. That too without the metadata.
 
 There is a need for a tool which would directly download and convert the video, add available metadata and send it to your device, all at the same time.
+
+![giphy](https://user-images.githubusercontent.com/32246337/33793009-5976f1d4-dcd5-11e7-8025-5f4ead864996.gif)
 
 ### Enters *MobOff*.
 
@@ -24,7 +26,8 @@ There is a need for a tool which would directly download and convert the video, 
 
 ## How to use?
 
-(Tested on Ubuntu with Python 3)
+(Tested on Ubuntu with Python 3) 
+### [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 
 >The initial setting up of the Pushbullet account seems a little tiring but it is just a one-time setup, and the gains are endless.
 
@@ -59,9 +62,12 @@ It is recommended that you use `virtualenv` (especially for `conda` users).
   * Enter the serial number for your preffered device to send the music/video files to when asked to.
   * When prompted enter the directory in which you want the downloaded files should be stored. 
   
-### You're all set up.
+### You're all set up. 
+![giphy 1](https://user-images.githubusercontent.com/32246337/33793159-03b0715a-dcd8-11e7-9eaf-40590c8fdc50.gif)
+
 
 ## Usage
+[![forthebadge](http://forthebadge.com/images/badges/kinda-sfw.svg)](http://forthebadge.com)
 
 ### `moboff --help`
     Usage: moboff [OPTIONS] COMMAND [ARGS]...
